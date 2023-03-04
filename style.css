@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.img{
+   height: 100%;
+}
+.padre{
+    padding: rem 1rem;
+    
+    
+}
+
+.inicio{
+    height: 400px;
+    background-image: url(https://images2.alphacoders.com/119/thumb-1920-1191759.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.404);
+    user-select: none;
+    position: relative;
+  
+}
+.vie{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    background-color: #00000050;
+}
+.inicio__sup{
+    padding: 0rem 4rem;
+    width: 495px; 
+    justify-items: center;
+  
+}
+.gr{
+    font-size: 25px;
+    font-weight: 100;
+    margin: 1rem;
+
+}
+.oup{
+    display: grid;
+    gap:80px;
+    position: relative;
+    z-index: 10;
+    justify-content: center;
+}
+
+.mng{
+    display: flex;  
+    width: 495px;
+    height: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+
+
+
+}
+.mon{
+    height: 3rem;
+   
+
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*fase de la primera imaguen terminada*/
+
+.run{
+    color: rgb(39, 4, 4);
+}
+.carts{
+    padding: 3rem 1rem;
+    max-width: 1024px;
+    display: grid;
+    gap: 2rem;
+    
+   
+    
+}
+.carts__1{
+   display: grid;
+   gap: 2rem;
+   text-align: center;
+    background-color: rgb(241, 230, 235);
+    border-radius: 10px;
+}
+.carts__2{
+    display: grid;
+    text-align: center;
+    line-height: 1.8rem;
+    
+}
+#bont{
+    text-align: center;
+    background-color: rgba(23, 202, 247, 0.301);
+    display: grid;
+    padding: 1rem 2rem;
+    max-width: px;
+    border-radius: 10px;
+    height: 50px;
+    
+}
+.gatitus{
+    
+    align-items: center;
+}
+.pelusa{
+    width: 100%;
+}
+.color1{
+    background-color: rgb(228, 228, 236);
+    display: grid;
+    gap: 19px;
+    border-radius: 10px;
+}  
+#bo{
+    text-align: center;
+    background-color: rgba(221, 136, 183, 0.459);
+    display: grid;
+    padding: 1rem 2rem;
+    max-width: px;
+    border-radius: 10px;
+    height: 50px;
+    
+}
+.gato{
+    padding: 0rem 1rem;
+    text-align: center;
+}
+.see{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://source.unsplash.com/random/1920×1080/?pets);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}  
+ .img--bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+ }
+ .end{
+    text-align: center;
+    display: grid;
+    gap: 2rem;
+ }
+ h4{
+    font-size: 70px;
+    color: rgb(65, 9, 9);
+ }
+h5{
+    text-align: center;
+    font-size: 30px;
+}
+span{
+    font-weight: 100;
+}
+.fin{
+    display: flex;
+   text-align: center;
+    height: 5rem;
+    justify-content: space-around;
+}
+footer{
+    display: grid;
+    gap: 2rem;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(16, 3, 90);
+}
+
+@media(min-width:600px){
+    img{
+        width: 100%;
+    }
+    .img{
+        width: 100rem;
+        
+        
+    }
+    .inicio{
+        height: 511px;
+        background-image: url(https://images2.alphacoders.com/119/thumb-1920-1191759.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        color: rgba(240, 248, 255, 0.404);
+        user-select: none;
+        position: relative;
+      
+    }
+    .vie{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 510px;
+        width: 100%;
+        background-color: #00000050;
+    }
+    .carts__1{
+        display: flex;
+        gap: 2rem;
+        text-align: center;
+         background-color: rgb(241, 230, 235);
+         border-radius: 10px;
+         flex-direction: row-reverse;
+         padding: 5rem 1rem;
+        max-width: 780px;
+        border-radius: 0px;
+    } 
+  
+    .carts__1:nth-child(even){
+        flex-direction: row;
+    }
+    .carts__2{
+        font-size: 14px;
+        text-align: center;
+
+    }
+    .carts__3{
+        display: grid;
+    text-align: center;
+    line-height: 1.8rem;
+    padding: 30px;
+    }
+    .carts{
+        max-width: 849px;
+        margin: auto;
+        display: grid;
+        gap: 0rem;
+        border-radius: 0px;
+        
+    }
+    .nou{
+
+        height: 200px;
+        width: 230%;
+      }
+      .color1{
+        background-color: rgb(228, 228, 236);
+        display: grid;
+        gap: 19px;
+        border-radius: 10px;
+        max-width: 465px;
+        margin: auto;
+        
+      }
+      .run{
+        color: rgb(39, 4, 4);
+    }
+    .run{
+        color: rgb(39, 4, 4);
+        background-color: rgb(241, 230, 235);
+        padding: 1rem 1rem;
+        width: 780px;
+    }
+
+    .inicio__sup{
+        display: grid;
+        gap:80px;
+        text-align: center;
+        align-items: baseline;
+        margin: auto;
+        color: #ffffff;
+        font-size: 30px;
+        
+    }
+   
+}
